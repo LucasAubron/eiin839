@@ -4,6 +4,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Web;
+using Mm;
 
 namespace BasicServerHTTPlistener
 {
@@ -107,9 +108,18 @@ namespace BasicServerHTTPlistener
 
                 // Obtain a response object.
                 HttpListenerResponse response = context.Response;
+                string responseString = "No adapted answer";
 
                 // Construct a response.
-                string responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+                if (request.Url.Segments[3] == "MyMethod")
+                {
+                    Mymethods mm = new Mymethods(HttpUtility.ParseQueryString(request.Url.Query).Get("param1"), HttpUtility.ParseQueryString(request.Url.Query).Get("param2"));
+                    responseString = mm.generateOutput();
+                }
+                else
+                {
+                    responseString = "<HTML><BODY> Hello world!</BODY></HTML>";
+                }
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                 // Get a response stream and write the response to it.
                 response.ContentLength64 = buffer.Length;
@@ -117,6 +127,7 @@ namespace BasicServerHTTPlistener
                 output.Write(buffer, 0, buffer.Length);
                 // You must close the output stream.
                 output.Close();
+           
             }
             // Httplistener neither stop ... But Ctrl-C do that ...
             // listener.Stop();
