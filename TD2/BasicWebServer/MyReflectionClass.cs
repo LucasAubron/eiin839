@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Reflection;
 using System.Diagnostics;
 using System.IO;
@@ -72,5 +68,21 @@ namespace MRC
             }
             return result;
         }
+
+        public string incr()
+        {
+            string filepath = @"C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\BasicWebServer\incr.txt";
+            string result;
+            StreamReader sr = new StreamReader(filepath);
+            string current = sr.ReadLine();
+            sr.Close();
+            result = (int.Parse(current) + int.Parse(param1)).ToString();
+            StreamWriter sw = new StreamWriter(filepath);
+            sw.WriteLine(result);
+            sw.Close();
+            return String.Concat("200 OK\nincr=",result);
+        }
     }
+
 }
+
