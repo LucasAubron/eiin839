@@ -11,3 +11,4 @@ C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\BasicWebServer\bin\Deb
 C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServerUrlParser.csproj.CoreCompileInputs.cache
 C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServer.exe
 C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServer.pdb
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\BasicWebServer\obj\Debug\BasicWebServerUrlParser.csprojAssemblyReference.cache
