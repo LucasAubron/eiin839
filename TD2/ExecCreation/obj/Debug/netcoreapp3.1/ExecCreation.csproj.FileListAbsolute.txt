@@ -1,0 +1,13 @@
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\obj\Debug\netcoreapp3.1\ExecCreation.csprojAssemblyReference.cache
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\obj\Debug\netcoreapp3.1\ExecCreation.AssemblyInfoInputs.cache
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\obj\Debug\netcoreapp3.1\ExecCreation.AssemblyInfo.cs
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\obj\Debug\netcoreapp3.1\ExecCreation.csproj.CoreCompileInputs.cache
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\bin\Debug\netcoreapp3.1\ExecCreation.exe
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\bin\Debug\netcoreapp3.1\ExecCreation.deps.json
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\bin\Debug\netcoreapp3.1\ExecCreation.runtimeconfig.json
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\bin\Debug\netcoreapp3.1\ExecCreation.runtimeconfig.dev.json
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\bin\Debug\netcoreapp3.1\ExecCreation.dll
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\bin\Debug\netcoreapp3.1\ExecCreation.pdb
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\obj\Debug\netcoreapp3.1\ExecCreation.dll
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\obj\Debug\netcoreapp3.1\ExecCreation.pdb
+C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\obj\Debug\netcoreapp3.1\ExecCreation.genruntimeconfig.cache

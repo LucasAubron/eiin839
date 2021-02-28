@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExecCreation": {
+      "commandName": "Project",
+      "commandLineArgs": "Argument1 Argument2"
+    }
+  }
+}

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
+using System.Diagnostics;
+using System.IO;
 
 namespace MRC
 {
@@ -26,8 +28,8 @@ namespace MRC
             this.param3 = this.parameters[2];
             if (method != null)
             {
-               result = (string)method.Invoke(this, null);
-            } 
+                result = (string)method.Invoke(this, null);
+            }
 
             return result;
 
@@ -43,6 +45,32 @@ namespace MRC
         {
             Console.WriteLine("Call MyMethod 2");
             return "200 OK\nThis method is useless !";
+        }
+
+        public string ExecCreation()
+        {
+            ProcessStartInfo start = new ProcessStartInfo();
+            start.FileName = @"C:\Users\laubr\OneDrive\Bureau\SI4_S8\SOC\TDs\eiin839\TD2\ExecCreation\bin\Debug\netcoreapp3.1\ExecCreation.exe"; // Specify exe name.
+            start.Arguments = String.Concat(this.param1, " ", this.param2); // Specify arguments.
+            start.UseShellExecute = false;
+            start.RedirectStandardOutput = true;
+            //
+            // Start the process.
+            //
+            string result;
+            using (Process process = Process.Start(start))
+            {
+                //
+                // Read in all the text from the process with the StreamReader.
+                //
+                using (StreamReader reader = process.StandardOutput)
+                {
+                    result = reader.ReadToEnd();
+                    Console.WriteLine(result);
+                    Console.ReadLine();
+                }
+            }
+            return result;
         }
     }
 }
