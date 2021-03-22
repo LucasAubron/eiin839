@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="main.css"></link>
 </head>
 <body>
-	<label for="aiedy"></label>
+	<label for="aiedy">Your API key</label>
 	<input id="aiedy">
 	<button onclick="retrieveAllContracts()">Retrieve Contracts</button>
 	<script type="text/javascript" src="main.js"></script>
-	<label></label>
+	<br>
+	<label for="komtract">Contract name</label>
+	<input id="komtract">
 	<datalist id="dl"></datalist>
 	<button onclick="retrieveContractStations()">Retrieve Contract</button>
-	<input id="komtract">
+	<br>
+	<label for="lat">latitude</label>
+	<input id="lat">
+	<label for="lon">longitude</label>
+	<input id="lon">
+	<button onclick="closestStation()">Closest station</button>
 
 </body>
 </html>
